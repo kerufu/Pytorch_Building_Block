@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-from measureing_function import meansure
+from meter_function import meansure
 
 class testmodel(nn.Module):
     def __init__(self):
